@@ -1,7 +1,6 @@
 # cash, year = 1000, int(input())
 #
-# while year != 0:
-#     cash += cash * 0.05
+# while year != 0: cash += cash * 0.05
 #     year -= 1
 #
 # print(round(cash, 2))
@@ -16,4 +15,4 @@ def cash_sum(cash, year):
 
 
 if __name__ == "__main__":
-    cash_sum(1000, 5)
+    print(cash_sum(1000, int(input())))
